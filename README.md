@@ -6,11 +6,11 @@ by JavaCommons Technologies
  (require js-eval) package: [js-eval](https://pkgs.racket-lang.org/package/js-eval)
 
 This basically provides `js-eval`, `js-global-get`, and
-`js-global-set!`. This depends on
-[javascript](https://docs.racket-lang.org/javascript/index.html)
-package, and all of the functions in
-[javascript](https://docs.racket-lang.org/javascript/index.html) package
-can be used with this package.
+`js-global-set!`. This depends on [JavaScript for PLT
+Scheme](https://docs.racket-lang.org/javascript/index.html) package, and
+all of the functions in [JavaScript for PLT
+Scheme](https://docs.racket-lang.org/javascript/index.html) package can
+be used with this package.
 
     1 Example and usage
                        
