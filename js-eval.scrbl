@@ -7,6 +7,8 @@
 @defmodule[js-eval]
 
 This basically provides @racket[js-eval], @racket[js-global-get], and @racket[js-global-set!].
+This depends on @hyperlink["https://docs.racket-lang.org/javascript/index.html"]{javascript} package,
+and all of the functions in @hyperlink["https://docs.racket-lang.org/javascript/index.html"]{javascript} package can be used with this package.
 
 @table-of-contents[]
 
