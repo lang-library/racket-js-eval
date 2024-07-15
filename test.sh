@@ -2,8 +2,8 @@
 set -uvx
 set -e
 
-#raco exe --gui -o test.exe test.rkt
-raco exe -o test.exe test.rkt
+#raco exe -o test.exe test.rkt
+raco exe --gui -o test.exe test.rkt
 
 rcedit-x64.exe ./test.exe --set-icon                           "./mingw32.ico"
 
