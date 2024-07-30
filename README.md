@@ -22,7 +22,7 @@ be used with this package.
 #! /usr/bin/env racket                                 
 #lang racket                                           
 (require js-eval)                                      
-(require pprint-all)                                   
+(require output)                                   
                                                        
 (js-global-set! "xyz" 888)                             
 (js-eval "print(xyz+$1)" 11)                           
