@@ -1,7 +1,7 @@
 #lang racket
 (require "./js-ns.rkt")
 (require javascript)
-(require pprint-all)
+(require output)
 
 (define _ (install-standard-library! global-object))
 
