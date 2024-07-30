@@ -10,9 +10,10 @@
 (define scribblings '(("js-eval.scrbl")))
 (define primary-file "main.rkt")
 (define release-notes '((p "First release")))
-(define deps '("base"
+(define deps '(
+               "base"
                "javascript"
-               "pprint-all"
+               "output"
                ))
 (define build-deps '("racket-doc"
                      "scribble-lib"))
