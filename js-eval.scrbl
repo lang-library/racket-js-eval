@@ -31,6 +31,11 @@ and all of the functions in @hyperlink["https://docs.racket-lang.org/javascript/
 (js-eval "global['list-ref']($1, $2)" '(111 222 333) 1)
 (js-global-set! "list_ref" list-ref)
 (js-eval "list_ref($1, $2)" '(111 222 333) 1)
+#|
+   New example (2026.03.22): define function in JavaScript and call it fom racket-lang.
+|#
+(js-eval "$add2 = function(a, b) { return a + b; }")
+((js-global-get "$add2") 1111 2222)
 }|
 
 @section{Reference}
